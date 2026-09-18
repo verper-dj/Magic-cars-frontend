@@ -655,7 +655,7 @@ h3 {
     gap: 46px;
 }
 
-.our-blog__title {}
+
 
 .blog-buttons {
     display: flex;
@@ -1071,7 +1071,6 @@ form#form__input {
     transition: all 0.3s ease;
 }
 
-.footer__nav-link {}
 
 .copyright {
     color: #939191;
