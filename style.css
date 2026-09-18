@@ -40,7 +40,6 @@ html, body::selection {
 
 .button:hover {
     background: #1e1b1b;
-    scale: 1.1;
 }
 
 h1 {
@@ -97,11 +96,8 @@ h3 {
     letter-spacing: -0.03em;
 }
 
-.logo {}
 
 /* ----------------- NAVIGATION ---------------- */
-
-.header {}
 
 
 .header__top {
@@ -121,9 +117,6 @@ h3 {
 .header__logo {
     margin-right: auto;
 }
-
-.header__nav {}
-
 .header__nav-list {
     display: flex;
     gap: 40px;
@@ -166,8 +159,6 @@ h3 {
     scale: 1.2;
 }
 
-.header__user-nav-text {}
-
 
 
 .title {
@@ -187,16 +178,8 @@ h3 {
     scale: 1.1;
 }
 
-.header__user-nav-num {}
-
 
 /* ---------------------- HEADER ---------------- */
-
-.header__body {}
-
-.container {}
-
-.header__body-inner {}
 
 .header__main {
     padding-top: 170px;
@@ -205,22 +188,17 @@ h3 {
     align-items: center;
 }
 
-.header__content {}
-
 .header__title {
 
     max-width: 624px;
 }
 
 .header__content-buttons {
-    /* width: 377px;
-    height: 64px; */
     display: flex;
     gap: 81px;
     align-items: center;
 }
 
-.header__content-btn {}
 
 .header__content-btn--video {
     padding: 12px 16px;
@@ -343,16 +321,10 @@ h3 {
 /* --------- What we Offer --------- */
 
 
-.wrapper {}
-
 .block-2__inner {
     background-color: #F2F2F2;
     padding-bottom: 30px;
 }
-
-.container {}
-
-.text2 {}
 
 .text2__little {
     font-size: 24px;
@@ -372,10 +344,6 @@ h3 {
     text-align: center;
 }
 
-.text2__big--wrap {}
-
-.grid-2--container {}
-
 .grid-2 {
     display: grid;
     width: 100%;
@@ -385,13 +353,6 @@ h3 {
     gap: 8px;
     margin-bottom: 32px;
 
-}
-
-.grid-2__block {
-    /* display: flex;  
-  flex-direction: column;
-    align-items: center;
-    justify-content: center; */
 }
 
 
@@ -512,21 +473,12 @@ h3 {
     color: #ff6433;
 }
 
-.button2-txt {}
-
-.button2-arrow {}
-
 /* ------------------------------------- */
 
 .user-way {
     padding-top: 138px;
     padding-bottom: 134px;
-    /* margin-left: auto;
-margin-right: auto; */
-
 }
-
-.container {}
 
 .user-way__inner {
     margin-left: auto;
@@ -540,10 +492,6 @@ margin-right: auto; */
     flex-direction: column;
     gap: 16px;
 }
-
-.user-way__title {}
-
-.user-way__subtitle {}
 
 .button__3 {
     width: 177px;
@@ -560,18 +508,12 @@ margin-right: auto; */
     margin-right: 24px;
 }
 
-.step1__circle {}
-
 .line {
     align-self: center;
     border: 2px dashed #ff6433;
     width: 0px;
     height: 71px;
 }
-
-.step2__circle {}
-
-.step3__circle {}
 
 .user-way__steps {
     display: flex;
@@ -585,19 +527,12 @@ margin-right: auto; */
     gap: 8px;
 }
 
-.step1__title {}
-
-.step1__subtittle {}
-
 .step2 {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.step2__title {}
-
-.step2__subtittle {}
 
 .step3 {
     display: flex;
@@ -605,21 +540,14 @@ margin-right: auto; */
     gap: 8px;
 }
 
-.step3__title {}
-
-.step3__subtittle {}
 
 /* --------------------------- */
 
-.CTA {}
 
 .CTA__inner {
     position: relative;
-
-
 }
 
-.container {}
 
 .CTA__img {
     display: flex;
@@ -633,10 +561,6 @@ margin-right: auto; */
     min-width: 0;
     object-fit: cover;
 }
-
-.img1 {}
-
-.img2 {}
 
 .CTA__extra {
     position: absolute;
@@ -664,8 +588,6 @@ margin-right: auto; */
     padding-top: 48px;
     padding-bottom: 48px;
 }
-
-.container {}
 
 .experience__inner {
     display: flex;
@@ -784,15 +706,6 @@ margin-right: auto; */
     display: none;
 }
 
-.date {}
-
-.body2 {}
-
-.card__title {}
-
-.title01 {}
-
-.card__description {}
 
 /* =============REVIEWS================= */
 
@@ -812,8 +725,6 @@ margin-right: auto; */
     margin-left: auto;
 
 }
-
-.reviews__slider {}
 
 .reviews__viewport {
     overflow: hidden;
@@ -862,15 +773,6 @@ margin-right: auto; */
     gap: -2px;
 }
 
-.name {}
-
-.title02 {}
-
-.city {}
-
-.body2 {}
-
-.feedback {}
 
 .reviews__controls {
     position: relative;
@@ -911,12 +813,6 @@ margin-right: auto; */
     justify-content: end;
 }
 
-.reviews__button {}
-
-.reviews__button--prev {}
-
-.reviews__button--next {}
-
 /* ============= FAQ =============== */
 
 .faq {
@@ -943,31 +839,23 @@ margin-right: auto; */
 .faq__item {
     background-color: #fff;
     padding: 40px;
-
     width: 100%;
     max-width: 896px;
-
     margin: 0 auto;
-
-
-
 }
 
 .faq__question {
     width: 100%;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     gap: 63px;
-
     padding: 0;
     border: none;
 
 }
 
-.answ-quest {}
+
 
 .icon {
     background-color: #ff6433;
@@ -983,13 +871,8 @@ margin-right: auto; */
 .icon img {
     width: 16px;
     height: 16px;
-
-
 }
 
-.question {}
-
-.title02 {}
 
 .answer {
     text-align: left;
@@ -1016,9 +899,6 @@ margin-right: auto; */
 
     margin-top: 16px;
 }
-
-.body1 {}
-
 /* ================== FORM ==================== */
 
 .form__inner {
@@ -1080,21 +960,9 @@ form#form__input {
     gap: 4px;
 }
 
-.info {}
-
-.info__item {}
-
-.info__title {}
-
-.body2 {}
-
 .info__subtitle {
     color: #1e1b1b;
 }
-
-.title02 {}
-
-.button {}
 
 .info__button {
     align-self: flex-start;
@@ -1137,10 +1005,6 @@ form#form__input {
     background-color: #1E1B1B;
 }
 
-.container {}
-
-.footer__inner {}
-
 .footer-box {
     display: flex;
     gap: 193px;
@@ -1152,8 +1016,6 @@ form#form__input {
     flex-direction: column;
     gap: 64px;
 }
-
-.left__title {}
 
 .socials {
     display: flex;
@@ -1168,7 +1030,6 @@ form#form__input {
     scale: 1.5;
 }
 
-.footer__right {}
 
 .info {
     display: flex;
@@ -1188,13 +1049,6 @@ form#form__input {
     opacity: 0.6;
 }
 
-.body2 {}
-
-.info__subtitle {}
-
-.title02 {}
-
-
 .footer-nav {
 
     color: #fff;
@@ -1203,9 +1057,6 @@ form#form__input {
     padding: 64px 0px;
 }
 
-.footer__logo {}
-
-.logo {}
 
 .footer__nav-list {
     display: flex;
@@ -1227,7 +1078,6 @@ form#form__input {
 }
 
 
-/* ==================== MEDIA =================== */
 /* ==================== MEDIA =================== */
 
 @media (max-width:1350px) {
@@ -1256,8 +1106,6 @@ form#form__input {
         margin-bottom: 32px;
 
     }
-
-    .grid-2__item {}
 
     .user-way__img {
         margin: 30px;
